@@ -1,7 +1,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="/"><h1>{{ site.title }}</h1></a>
+      <a href="{{ site.github.url }}"><h1>{{ site.title }}</h1></a>
       <p class="lead">{{ site.description }}</p>
     </div>
 
@@ -13,12 +13,12 @@
       {% assign articles = site.articles | sort:"order" %}
       {% for article in articles %}
         <li class="sidebar-nav-item{% if page.url == article.url %} active{% endif %}">
-          <a href="{{ article.url }}">{{article.order}}. {{ article.title }}</a>
+          <a href="{{ site.github.url }}{{ article.url }}">{{article.order}}. {{ article.title }}</a>
         </li>
       {% endfor %}
       <br />
-      <li class="sidebar-nav-item{% if page.url == "about" %} active{% endif %}">
-        <a href="/about">Sobre</a>
+      <li class="sidebar-nav-item{% if page.title == "Sobre" %} active{% endif %}">
+        <a href="{{ site.github.url }}/about">Sobre</a>
       </li>
   </div>
 </div>

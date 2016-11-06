@@ -10,16 +10,12 @@ layout: default
 {% unless page.single_page %}
   <div class="pagination">
     {% if page.previous_page %}
-      <a class="pagination-item older" href="{{ site.github.url }}/{{page.previous_page}}">Anterior</a>
+      <a class="pagination-item older" href="{{ site.github.url }}/{{ page.previous_page }}">Anterior</a>
     {% else %}
       <span class="pagination-item older">Anterior</span>
     {% endif %}
     {% if page.next_page %}
-      {% if page.page == 2 %}
-        <a class="pagination-item newer" href="{{ site.github.url }}">Próximo</a>
-      {% else %}
-        <a class="pagination-item newer" href="{{ site.github.url }}/{{page.next_page}}">Próximo</a>
-      {% endif %}
+      <a class="pagination-item newer" href="{{ site.github.url }}/{{ page.next_page }}">Próximo</a>
     {% else %}
       <span class="pagination-item newer">Próximo</span>
     {% endif %}
