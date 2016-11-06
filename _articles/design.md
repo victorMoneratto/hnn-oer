@@ -11,11 +11,11 @@ O Neuronio Artificial procura imitar esse processo. Os inputs e pesos são model
 
 Aqui, comparamos dois métodos de se implementar um neuronio artificial, a Digital e a Analógica. A Analógica é muito eficiente em termos de espaço físico e velocidade de processamento, entretanto perde acurácia. A digital, por sua vez, ganha precisão ao custo de eficiência.
 
-# Neuronios Digitais
+## Neuronios Digitais
 
 A implementação digital [39] de um unico neuronio é relativamente simples, já que todas operações necessárias para implementa-lo podem ser feitas de forma direta. No neuronio digital, pesos sinápticos são guardados em registradores ou memórias, cujas alternativas incluem um a tres RAMs de transistores dinâmicos, ou quatro ou seis RAMs de transistores estáticos. Somadores, subtratores e multiplicadores são disponíveis como circuitos padrões [119], e Funções de Ativação não lineares como hardware especializado.
 
-## Vantagens
+### Vantagens
 
 * Simplicidade
 
@@ -25,23 +25,23 @@ A implementação digital [39] de um unico neuronio é relativamente simples, j�
 
 * Fabricação barata
 
-## Desvantagens
+### Desvantagens
 
 * Operações mais devagares, especialmente na operação de multiplicação entre peso e input
 
 * Conversão das representações digitais de e para sinal analógico pode ser necessária
 
-## Exemplos
+### Exemplos
 
 [120], [121], [95]
 
-# Neuronios Analógicos
+## Neuronios Analógicos
 
 Em neurônios analógicos pesos são geralmente guardados usando um dos seguintes: resistores[126], capacitores [128, 129] e floating-gate EEPROMs[130]. Com eles, a funcionalidade não-linear da Função de Ativação pode, às vezes, ser capturada diretamente, porém um conjunto coerente de todos os elementos básicos é difícil de ser alcançada.
 
 Como as Funções de Ativação utilizadas em redes neurais em software não podem ser facilmente implementadas em Integrações em Larga Escala, algumas funções aproximadas, ou lookup tables, são utilizadas como FAs no lugar. A implementação analógica se beneficia de explorar efeitos físicos simples para executar algumas das funções de rede [4].
 
-## Vantagens
+### Vantagens
 
 * Menores
 
@@ -49,7 +49,7 @@ Como as Funções de Ativação utilizadas em redes neurais em software não pod
 
 * Função de Ativação mais rápida
 
-# Desvantagens
+## Desvantagens
 
 * Menor precisão
 
@@ -57,6 +57,6 @@ Como as Funções de Ativação utilizadas em redes neurais em software não pod
 
 * Dificil de projetar
 
-# Exemplos
+## Exemplos
 
 [22], [78], [135]

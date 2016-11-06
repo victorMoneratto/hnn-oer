@@ -4,12 +4,11 @@ title: Introdução
 subtitle: Redes Neurais Artificiais e por que implementá-las em hardware.
 next_page: design
 ---
-# Conceitos Importantes
 Redes Neurais Artificiais (RNA) são um paradigma em aprendizado de máquina inspirado pelo cérebro. Elas são utilizadas em aplicações de reconhecimento de padrões, memória, mapeamento, etc. e possuem dois componentes principais, *Neurônios,* que correspondem aos vértices de um grafo, e *Sinapses*, que correspondem aos vértices. 
 
 Conforme a RNA aumenta de tamanho, o número de sinapses aumenta quadraticamente, o que torna uma rede neural completamente interconectada algo difícil de se construir.
 
-# Vantagens sobre Implementações em Software
+## Vantagens sobre Implementações em Software
 A maior parte das RNAs utilizadas atualmente são implementadas em software. Isso ocorre, principalmente, por causa da flexibilidade oferecida pelo software durante o desenvolvimento, fase de testes e updates. Entretanto, certas aplicações de RNAs, como a compressão de uma stream de vídeo, demandam alto volume de processamento adaptativo em tempo real, em conjunto com o aprendizado de grandes datasets em tempo razoável.
 
 Tais aplicações necessitam o uso de implementações de Integração Em Grande Escala (IEGE) que sejam eficientes e com capacidade de processamento realmente paralela. Hardware especializado, que pode tanto suplementar quanto substituir o software, muitas vezes oferece muitas vantagens nessas situações. 
@@ -26,7 +25,7 @@ Algumas dessas vantagens são:
 
 Um Hardware realizando uma RNA é geralmente chamado de uma Rede Neural em Hardware (RNH). Informalmente, RNHs podem ser definidas como dispositivos projetados para implementar arquiteturas neurais e algoritmos de aprendizado, tirando vantagem da natureza inerentemente paralela das RNAs.
 
-# Desafios Encontrados
+## Desafios Encontrados
 Como a maior parte dos problemas resolvidos por redes neurais requerem um mínimo de 100 a 1000 neuronios, o número de sinapses cai em algum lugar entre 10^4 e 10^6. Para o aprendizado ocorrer, essas interconexões precisam ser modificáveis. Já que limitações de hardware introduzem erros deprecisão, a degradação do aprendizado e a falta de acurácia são grandes desafios ao se criar uma RNH, já que podem levar ao aumento no numero de ciclos até o aprendizado.
 
 Outro desafio é a criação das interconexões entre os neurônios. No cérebro, os neurônios possuem sinapses que se ligam em três dimensões. Um chip não possui essa liberdade, o que impõe limitações no design de RNHs. As abordagens mais utilizadas incluem a Digital <sup>[1](#1), [2](#2), [3](#3)</sup>, analógico <sup>[4](#4), [5](#5)</sup>, híbrida <sup>[6](#6), [7](#7)</sup>, e implementações óticas não-eletrônicas.

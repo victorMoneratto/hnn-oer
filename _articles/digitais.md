@@ -10,7 +10,7 @@ Porém, as funções de ativação e os multipĺicadores de sinapse são dificul
 Várias subdivisões da arquitetura surgiram, como arquitaturas "bit-slice", SIMD e de vetores sistólicos.
 Em geral, têm o treinamento feito por um computador associado, feito fora do chip.
 
-# Motivação
+## Motivação
 Fáceis de projetar, as arquiteturas digitais foram a primeira tentativa de implementação em hardware de sistemas neurais.
 Por serem dedicadas, tem uma grande melhora de desempenho comparadas à sistemas idênticos rodando em software em hardwares de uso geral.
 Arquiteturas "bit-slice" são fáceis de escalar, sendo projetadas em blocos de baixo custo, cada um processando um ou uma fatia de bits da entrada.
@@ -18,16 +18,16 @@ Arquiteturas "bit-slice" são fáceis de escalar, sendo projetadas em blocos de 
 Arquiteturas SIMD trabalham com blocos de dados de maneira simultânea. Por não terem lógica de endereçamento, tem um tempo de resposta menor.
 Arquiteturas de Vetores Sistólicos têm um processamento com pipeline, com os elementos de processamento trabalhando de forma síncrona, e repassando os dados processados para o próximo elemento no pipeline.
 
-# Vantagens:
+## Vantagens:
 * Facil alocação de pesos.
 * Desempenho superior à hardwares de uso geral.
 * Modular.
 
-# Desvantagens:
+## Desvantagens:
 * Precisão deteriorada.
 * Dificuldade na implementação de funções de ativação e multiplicadores sinápticos.
 
-# Exemplos
+## Exemplos
 * Micro Devices’ MD1220 Neural Bit Slice
 * Adaptive Solutions’ N64000
 * Siemens’ MA-16
