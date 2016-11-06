@@ -1,0 +1,26 @@
+# Content settings
+title: Redes Neurais Hardware
+description: >
+  Recurso educacional aberto sobre arquiteturas de computadores para redes neurais.
+
+# Collection settings
+collections:
+  articles:
+    output: true
+    permalink: /:path/
+
+# Default settings
+defaults:
+  - scope:
+      order: 0
+      type: articles
+    values:
+      layout: page
+
+# Build settings
+# baseurl: /hnn-oer
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
