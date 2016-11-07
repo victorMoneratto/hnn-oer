@@ -5,7 +5,7 @@ subtitle: Novas modelagens neuronais inspiradas pelos avanços da biologia.
 previous_page: hibridos
 next_page: fpga
 ---
-Numa tentativa de se aproximar mais da biologia, os hardwares neuromórficos emulam mais precisamente os comportamentos de neuronios reais.
+Numa tentativa de se aproximar mais da biologia, os hardwares neuromórficos emulam mais precisamente os comportamentos de neurônios reais.
 
 ## Motivação
 Paralelo ao desenvolvimento dos chips digitais/analógicos, pesquisadores tentaram se aproximar mais do funcionamento dos neurônios reais, utilizando estudos e descobertas mais recentes de seu funcionamento.

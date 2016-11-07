@@ -10,6 +10,8 @@ Porém, as funções de ativação e os multipĺicadores de sinapse são dificul
 Várias subdivisões da arquitetura surgiram, como arquitaturas "bit-slice", SIMD e de vetores sistólicos.
 Em geral, têm o treinamento feito por um computador associado, feito fora do chip.
 
+{% include image.html url='/public/images/neurosynaptic-chip.jpg' desc='Chip IBM Synapse' %}
+
 ## Motivação
 Fáceis de projetar, as arquiteturas digitais foram a primeira tentativa de implementação em hardware de sistemas neurais.
 Por serem dedicadas, tem uma grande melhora de desempenho comparadas à sistemas idênticos rodando em software em hardwares de uso geral.
