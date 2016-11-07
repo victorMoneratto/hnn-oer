@@ -5,16 +5,16 @@ subtitle: Aproveitando de fenômenos físicos para melhorar os resultados.
 previous_page: digitais
 next_page: hibridos
 ---
-Chips Analógicos são mais rápidos que sua contraparte digital, porém apresentam desafios no armazenamento de pesos das sinapses, além um alto custo energético.
+Mais rápidos que sua contraparte digital, tem dificuldades com o armazenamento de pesos, e alto custo energético, necessitando um melhor resfriamento.
 
 ## Motivação
-Para melhorar a precisão e a velocidade dos chips digitais, foram projetados chips analógicos, explorando fenômenos físicos, o problema de multiplicação de sinapses foi praticamente sanado, e o das funções de ativação, significantemente reduzido.
-
-Porém, novos problemas surgiram: Os chips analógicos são consideravelmente mais dificeis de projetar, e apresentam um aquecimento muito superior, há também o problema de gerenciamento de pesos, que embora minimizado usando "floating gates", ainda é um gargalo para a arquitetura.
+Para melhorar a velocidade dos chips digitais, foram projetados chips analógicos.
+Explorando fenômenos físicos, o problema de multiplicação de sinapses foi praticamente sanado, e o das funções de ativação, significantemente reduzido.
+Porém, novos problemas surgiram: Os chips analógicos são consideravelmente mais dificeis de projetar, e apresentam um aquecimento muito superior.
+Há também o problema de gerenciamento de pesos, que embora minimizado usando "floating gates", ainda é um gargalo para a arquitetura.
 
 ## Vantagens
 * Maior velocidade de processamento
-* Maior precisão
 * Maior robustez
 * Melhor implementação de Funções de Ativação
 
@@ -23,6 +23,7 @@ Porém, novos problemas surgiram: Os chips analógicos são consideravelmente ma
 * Potência elevada e superaquecimento
 * Dificuldade de se projetar
 * Menor paralelismo e escalabilidade
+* Precisão deteriorada
 
 ## Exemplos
 * Intel’s Electrically Trainable Analog Neural Network (ETANN) 80170NX
