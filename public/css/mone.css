@@ -15,7 +15,11 @@ html {
 .sidebar-about h1 {
   color: #eee;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+.sidebar-about .lead {
+  font-size: 1rem;
 }
 
 ul.post-list {
