@@ -9,7 +9,10 @@
       <!--<li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
         <a href="/">Tabela de Conteúdo</a>
       </li>-->
-
+      <li class="sidebar-nav-item{% if page.layout == "Home" %} active{% endif %}">
+        <a href="{{ site.github.url }}/">Índice</a>
+      </li>
+      <br />
       {% assign articles = site.articles | sort:"order" %}
       {% for article in articles %}
         <li class="sidebar-nav-item{% if page.url == article.url %} active{% endif %}">
