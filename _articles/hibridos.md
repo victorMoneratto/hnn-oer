@@ -1,7 +1,7 @@
 ---
 order: 5
 title: Chips Híbridos
-subtitle:
+subtitle: Equilibrando características de arquiteturas Digitais e Analógicas
 previous_page: analogicos
 next_page: neuromorfico
 ---

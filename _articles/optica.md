@@ -1,7 +1,7 @@
 ---
 order: 9
 title: Implementação Óptica
-subtitle:
+subtitle: Indo além dos limites eletrônicos de design de hardware.
 previous_page: ram
 ---
 Tentativas de explorar as propriedades da luz, de maneira semelhante ao ocorrido nos chips analógicos.

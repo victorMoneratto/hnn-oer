@@ -1,7 +1,7 @@
 ---
 order: 8
 title: Implementação em RAM
-subtitle:
+subtitle: Melhorando o processo de treinamento com implementações mais acessíveis.
 previous_page: fpga
 next_page: optica
 ---

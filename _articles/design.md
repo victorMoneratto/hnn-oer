@@ -1,7 +1,7 @@
 ---
 order: 2
 title: Design de Neurônios
-subtitle:  
+subtitle: Diferentes implementações dos blocos básicos de uma rede neural.
 previous_page: intro
 next_page: digitais
 ---

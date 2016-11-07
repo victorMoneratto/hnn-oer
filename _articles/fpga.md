@@ -1,7 +1,7 @@
 ---
 order: 7
 title: Implementação em FPGA
-subtitle:
+subtitle: Acelerando o processo de produção com o uso de hardware reprogramável.
 previous_page: neuromorfico
 next_page: ram
 ---

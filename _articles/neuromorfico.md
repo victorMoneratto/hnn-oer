@@ -1,7 +1,7 @@
 ---
 order: 6
 title: Hardware Neuromórfico
-subtitle:
+subtitle: Novas modelagens neuronais inspiradas pelos avanços da biologia.
 previous_page: hibridos
 next_page: fpga
 ---
