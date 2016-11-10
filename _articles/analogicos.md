@@ -32,4 +32,4 @@ Há também o problema de gerenciamento de pesos, que embora minimizado usando [
 
 {% include default-references.md %}
 
-*. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)
+* [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)

@@ -35,4 +35,4 @@ Arquiteturas de Vetores Sistólicos têm um processamento com pipeline, com os e
 
 {% include default-references.md %}
 
-*. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)
+* [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)

@@ -35,5 +35,5 @@ Tal processamento é necessário pois, para neurônios de pico/pulso, a ordem e 
 
 {% include default-references.md %}
 
-*. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)
-*. [P. Merolla, J. Arthur, F. Akopyan,N. Imam, R. Manohar, D. S. Modha, A Digital Neurosynaptic Core Using Embedded Crossbar Memory with 45pJ per Spike in 45nm](http://www.modha.org/papers/012.CICC1.pdf)
+* [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)
+* [P. Merolla, J. Arthur, F. Akopyan,N. Imam, R. Manohar, D. S. Modha, A Digital Neurosynaptic Core Using Embedded Crossbar Memory with 45pJ per Spike in 45nm](http://www.modha.org/papers/012.CICC1.pdf)
