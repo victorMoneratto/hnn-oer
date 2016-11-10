@@ -19,7 +19,7 @@ A implementação digital<sup>[1](#1)</sup> de um unico neurônio é relativamen
 
 ## Neurônios Analógicos
 
-Em neurônios analógicos pesos são geralmente guardados usando um dos seguintes: resistores<sup>[3](#3)</sup>, capacitores <sup>[4](#4), [5](#5)</sup> e floating-gate EEPROMs[130]. Com eles, a funcionalidade não-linear da Função de Ativação pode, às vezes, ser capturada diretamente, porém um conjunto coerente de todos os elementos básicos é difícil de ser alcançada.
+Em neurônios analógicos pesos são geralmente guardados usando um dos seguintes: resistores<sup>[3](#3)</sup>, capacitores <sup>[4](#4), [5](#5)</sup> e floating-gate EEPROMs<sup>[7](#7)</sup>. Com eles, a funcionalidade não-linear da Função de Ativação pode, às vezes, ser capturada diretamente, porém um conjunto coerente de todos os elementos básicos é difícil de ser alcançada.
 
 Como as Funções de Ativação utilizadas em redes neurais em software não podem ser facilmente implementadas em Integrações em Larga Escala, algumas funções aproximadas, ou lookup tables, são utilizadas como FAs no lugar. A implementação analógica se beneficia de explorar efeitos físicos simples para executar algumas das funções de rede [6](#6).
 
@@ -57,3 +57,7 @@ Como as Funções de Ativação utilizadas em redes neurais em software não pod
 6. [C. Mead, Analog VLSI and Neural systems, Addison-Wesley, 1989.](https://www.researchgate.net/publication/260477020_Analog_VLSI_and_neural_systems?el=1_x_8&enrichId=rgreq-d0c76f22295154d4af489f34654935c4-XXX&enrichSource=Y292ZXJQYWdlOzIyMzkzODA3ODtBUzoyMDQ4MjU5OTczODU3MjhAMTQyNTg0NTczMTI2Mg==)
     
     <a name="6" />
+
+7. [M. Holler, S. Tam, H. Castro, R. Benson, An electrically trainable artificial neural network (ETANN) with 10240 “Floating Gate” synapses, in: Proceedings of Inter- national Joint Conference on Neural Networks, Vol. II, Washington D.C., 1989, pp. 91–96.](https://www.researchgate.net/publication/224740406_Electrically_trainable_artificial_neural_network_ETANN_with_10240_'floating_gate'_synapses?el=1_x_8&enrichId=rgreq-0408120c6aa15b9ee8d1aa389dc92ec8-XXX&enrichSource=Y292ZXJQYWdlOzIyMzkzODA3ODtBUzoyMDQ4MjU5OTczODU3MjhAMTQyNTg0NTczMTI2Mg==)
+    
+    <a name="7" />

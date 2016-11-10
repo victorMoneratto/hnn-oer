@@ -11,7 +11,7 @@ Mais rápidos que sua contraparte digital, tem dificuldades com o armazenamento 
 Para melhorar a velocidade dos chips digitais, foram projetados chips analógicos.
 Explorando fenômenos físicos, o problema de multiplicação de sinapses foi praticamente sanado, e o das funções de ativação, significantemente reduzido.
 Porém, novos problemas surgiram: Os chips analógicos são consideravelmente mais dificeis de projetar, e apresentam um aquecimento muito superior.
-Há também o problema de gerenciamento de pesos, que embora minimizado usando "floating gates", ainda é um gargalo para a arquitetura.
+Há também o problema de gerenciamento de pesos, que embora minimizado usando [floating gates](https://en.wikipedia.org/wiki/Floating-gate_MOSFET), ainda é um gargalo para a arquitetura.
 
 ## Vantagens
 * Maior velocidade de processamento
@@ -32,4 +32,4 @@ Há também o problema de gerenciamento de pesos, que embora minimizado usando "
 
 {% include default-references.md %}
 
-1. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)
+*. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)

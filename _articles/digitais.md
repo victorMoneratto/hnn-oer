@@ -7,7 +7,7 @@ next_page: analogicos
 ---
 Englobando maior parte dos chips disponíveis no mercado, as arquiteturas digitais tem processo de fabricação bem conhecido, design flexivel e facilidades para o armazenamento de pesos.
 Porém, as funções de ativação e os multipĺicadores de sinapse são dificuldades frequentes no desenvolvimento.
-Várias subdivisões da arquitetura surgiram, como arquitaturas "bit-slice", SIMD e de vetores sistólicos.
+Várias subdivisões da arquitetura surgiram, como arquitaturas [bit slice](https://en.wikipedia.org/wiki/Bit_slicing), SIMD e de vetores sistólicos.
 Em geral, têm o treinamento feito por um computador associado, feito fora do chip.
 
 {% include image.html url='/public/images/neurosynaptic-chip.jpg' desc='Chip IBM Synapse' %}
@@ -35,4 +35,4 @@ Arquiteturas de Vetores Sistólicos têm um processamento com pipeline, com os e
 
 {% include default-references.md %}
 
-1. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)
+*. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)

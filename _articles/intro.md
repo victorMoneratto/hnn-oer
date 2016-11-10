@@ -4,7 +4,7 @@ title: Introdução
 subtitle: Redes Neurais Artificiais e por que implementá-las em hardware.
 next_page: design
 ---
-Redes Neurais Artificiais (RNA) são um paradigma em aprendizado de máquina inspirado pelo cérebro. Elas são utilizadas em aplicações de reconhecimento de padrões, memória, mapeamento, etc. e possuem dois componentes principais, *Neurônios,* que correspondem aos vértices de um grafo, e *Sinapses*, que correspondem aos vértices. 
+Redes Neurais Artificiais (RNA) são um paradigma em aprendizado de máquina inspirado pelo cérebro. Elas são utilizadas em aplicações de reconhecimento de padrões, memória, mapeamento, etc. e possuem dois componentes principais, *Neurônios,* que correspondem aos vértices de um grafo, e *Sinapses*, que correspondem às arestas. 
 
 Conforme a RNA aumenta de tamanho, o número de sinapses aumenta quadraticamente, o que torna uma rede neural completamente interconectada algo difícil de se construir.
 

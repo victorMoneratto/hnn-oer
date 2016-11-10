@@ -31,4 +31,4 @@ A perda de performance ocasionada pela conversão de sinal e de precisão, graç
 
 {% include default-references.md %}
 
-1. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)
+*. [M. Forssell, Hardware Implementation of Artificial Neural Networks](https://users.ece.cmu.edu/~pgrover/teaching/files/NeuromorphicComputing.pdf)
