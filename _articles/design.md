@@ -21,7 +21,7 @@ A implementação digital<sup>[1](#1)</sup> de um unico neurônio é relativamen
 
 Em neurônios analógicos pesos são geralmente guardados usando um dos seguintes: resistores<sup>[3](#3)</sup>, capacitores <sup>[4](#4), [5](#5)</sup> e floating-gate EEPROMs<sup>[7](#7)</sup>. Com eles, a funcionalidade não-linear da Função de Ativação pode, às vezes, ser capturada diretamente, porém um conjunto coerente de todos os elementos básicos é difícil de ser alcançada.
 
-Como as Funções de Ativação utilizadas em redes neurais em software não podem ser facilmente implementadas em Integrações em Larga Escala, algumas funções aproximadas, ou lookup tables, são utilizadas como FAs no lugar. A implementação analógica se beneficia de explorar efeitos físicos simples para executar algumas das funções de rede [6](#6).
+Como as Funções de Ativação utilizadas em redes neurais em software não podem ser facilmente implementadas em Integrações em Larga Escala, algumas funções aproximadas, ou lookup tables, são utilizadas como FAs no lugar. A implementação analógica se beneficia de explorar efeitos físicos simples para executar algumas das funções de rede<sup>[6](#6)</sup>.
 
 <br/>
 
